@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f8f9ff;
+    color: #121c28;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  user-select: none;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1;
+}
+
+@theme {
+  --color-primary: #001e40;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #003366;
+  --color-on-primary-container: #799dd6;
+  --color-primary-fixed: #d5e3ff;
+  --color-primary-fixed-dim: #a7c8ff;
+  --color-on-primary-fixed: #001b3c;
+  --color-on-primary-fixed-variant: #1f477b;
+
+  --color-secondary: #705d00;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fcd400;
+  --color-on-secondary-container: #6e5c00;
+  --color-secondary-fixed: #ffe16d;
+  --color-secondary-fixed-dim: #e9c400;
+  --color-on-secondary-fixed: #221b00;
+
+  --color-tertiary: #161f23;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #2b3439;
+  --color-on-tertiary-container: #939ca2;
+
+  --color-surface: #f8f9ff;
+  --color-surface-dim: #d1dbec;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eef4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dfe9fa;
+  --color-surface-container-highest: #d9e3f4;
+
+  --color-on-surface: #121c28;
+  --color-on-surface-variant: #43474f;
+  --color-inverse-surface: #27313e;
+  --color-inverse-on-surface: #eaf1ff;
+
+  --color-outline: #737780;
+  --color-outline-variant: #c3c6d1;
+
+  --color-background: #f8f9ff;
+  --color-on-background: #121c28;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+}
+
+/* Custom typography utilities matching prompt definitions */
+.font-display-lg {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 768px) {
+  .font-display-lg {
+    font-size: 3rem;
+  }
+}
+
+.font-headline-lg {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.font-headline-lg-mobile {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.font-title-md {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.font-label-sm {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.font-code-sm {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: monospace;
+}

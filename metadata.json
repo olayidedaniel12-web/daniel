@@ -1,0 +1,6 @@
+{
+  "name": "NOUN ODL Portal",
+  "description": "National Open University of Nigeria Open and Distance Learning portal dashboard with TMA management, e-courseware, exam timetables, and wallet fee management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
